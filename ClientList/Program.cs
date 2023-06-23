@@ -13,8 +13,8 @@ namespace ClientList
         static void Main(string[] args)
         {
             //Console.WriteLine(nameFile);
-            Client client = new Client();
-            client.ChooseLoadingFile();
+            FileOpener fileopener = new FileOpener();
+            fileopener.ChooseLoadingFile();
             Console.ReadKey();
         }
     }
